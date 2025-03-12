@@ -53,12 +53,10 @@
         android:id="@id/text_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="12.5dp"
         android:text="15 minutos"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/text_love"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image_time"
+        app:layout_constraintStart_toStartOf="@id/image_time"
         app:layout_constraintTop_toBottomOf="@+id/image_time" />
 
     <ImageView
@@ -76,11 +74,10 @@
         android:id="@+id/text_love"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="12.5dp"
         android:text="54214"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text_time"
+        app:layout_constraintEnd_toEndOf="@id/image_love"
+        app:layout_constraintStart_toStartOf="@id/image_love"
         app:layout_constraintTop_toBottomOf="@id/image_love" />
 
     <View
