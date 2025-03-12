@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">exercicios</string>
+    <string name="cadastrar_se">Ainda não é cadastrado? Cadastre-se!</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="login">login</string>
+</resources>
